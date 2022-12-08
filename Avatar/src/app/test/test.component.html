@@ -1,0 +1,35 @@
+<h1>Hello {{test}}</h1>
+<h2>Hello{{getval()}}</h2>
+<h3>{{num==100}}</h3>
+
+<h2>Arithemtic Operations</h2>
+<h4>Addition :-{{1+1}}</h4>
+<h4>Subtraction :-{{6-2}}</h4>
+<h4>Multiplication:-{{6*1}}</h4>
+<h4>Division:- {{16/2}}</h4>
+<button (click)="increment()"> increment :- {{counter}}</button>
+<button (click)="decrement()"> decrement :- {{counterless}}</button><br>
+
+ <img [src]="myImg2">
+<img [src]=myImg alt="loo">
+<ul>
+    <li><video [src]="myvideo"  height="1000px;" autoplay controls muted ></video> <br/></li>
+</ul>
+
+
+
+
+<!-- <div style="background-image:url(assets/wp5212073.jpg); height: 100px;;"> -->
+<select>
+    <option>qwerty</option>
+    <option>qwerty</option>
+    <option>qwerty</option>
+</select>
+<!-- </div> -->
+
+<div style="padding-left: 100px; padding-top: 100px;">
+    <h2><label style="color:rgb(19, 23, 31);" >Display Name/String</label></h2>
+<input type="text" name="name" #name>
+<button (click)="getName(name.value)">ClickMe</button>
+<h3>{{name.value}}</h3>
+</div>

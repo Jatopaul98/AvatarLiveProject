@@ -1,0 +1,150 @@
+/* .banner {
+  background-image: url("/assets/main img.jpeg");
+  background-size: cover;
+  height: 540px;
+  width: 100%;
+  padding: 0;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+} */
+.primary {
+  position: relative;
+
+  background-color: #0d65a0;
+  border: solid #a1f6ff;
+  font-family: "ProximaNovaBlack", NotoSans, sans-serif;
+  width: 260px;
+  border-width: 2px !important;
+  border-radius: 20px 0 20px 0;
+  margin: 16px;
+  font-size: 0.875rem;
+  font-weight: 900;
+  line-height: 0.875rem;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.primary:hover {
+  color: rgb(9, 39, 65);
+  background-color: white;
+  border-color: white;
+}
+
+
+
+#test {
+  height: 120px;
+  color: #33d7e2;
+  margin-top: 100px;
+}
+#test2 {
+  height: 120px;
+  color: #33d7e2;
+  margin-top: 100px;
+
+}
+#test:hover {
+  color: #0b2633;
+}
+
+.twobuttons{
+text-align: center;
+}
+/* @media only screen and (max-width: 768px) {
+  #text {
+    margin-left: 1px !important;
+  }
+} */
+@media only screen and (max-width: 768px) {
+  #test {
+    height: 60px;
+    width: 200px;
+
+  }
+}
+@media only screen and (min-width: 375px) {
+  #lastcards {
+    height: 600px;
+    width: 200px;
+    background-position: center;
+
+  }
+}
+
+
+.video{
+  /* background-image: url("/assets/main img.jpeg"); */
+  background-position:  center;
+  background-size: cover;
+  width: 100%;
+  /* height: 600px; */
+
+
+}
+#innerlastcards{
+  color: rgb(173, 224, 233);
+  text-align: center;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.lastbutton
+{
+  float: left;
+  margin-top: 300px;
+  color: rgb(168, 25, 25);
+}
+
+
+#test{
+  color: turquoise;
+  margin-top: 246px;
+
+  text-align: center;
+}
+.secondcards {
+  box-sizing: border-box;
+}
+.first {
+  font-family: serif;
+  color: rgb(15, 51, 92);
+  font-size: 25px;
+}
+.card {
+  margin: 10px;
+  margin-top: 40px;
+}
+.img1:hover {
+  position: relative;
+  transform: translateY(1px) scale(1.01);
+
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.img2:hover {
+  position: relative;
+  transform: translateY(1px) scale(1.01);
+
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.secondcards {
+  background-image: url("/assets/background\ card\ second.jpeg");
+  background-position:  center;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+
+
+
+
+}
+
+
+
+
